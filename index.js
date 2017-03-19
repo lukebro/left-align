@@ -1,10 +1,15 @@
 const stripAnsi = require('strip-ansi');
 const is2dArray = require('is-2d-array');
 
-function leftAlign(lines, padding = 4) {
+function leftAlign(lines, padding) {
 	if (!is2dArray(lines)) {
 		throw new TypeError('Expecting a 2D array of ASCII text');
 	}
+
+	if (!padding) {
+		padding = 4;
+	}
+
 	const lengths = [];
 	const leftAligned = [];
 
