@@ -6,7 +6,7 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "keywords": ["left", "align" "column", "table", "simple"],
+  "keywords": ["left", "align", "column", "table", "simple"],
   "author": "Lukasz Brodowski <lukebrodowski@gmail.com> (http://lukebro.com/)",
   "license": "MIT",
   "devDependencies": {
