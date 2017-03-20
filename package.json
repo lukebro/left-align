@@ -2,6 +2,7 @@
   "name": "left-align",
   "version": "1.0.0",
   "description": "Left align text to a column",
+  "repository": "lukebro/left-align",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"

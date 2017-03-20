@@ -18,8 +18,8 @@ let leftAligned = leftAlign([
 ]);
 
 //=> One      Two      Three    Four
-//	 Two      Three    Four     Five
-//	 Three    Four     Five    	Six
+//   Two      Three    Four     Five
+//   Three    Four     Five    	Six
 ```
 ## API
 
